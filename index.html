@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script defer src="main.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+
+    <div class="content scoreboard">
+        <div>
+            <h2>Вы</h2>
+            <h2 id="playerChar">#</h2>
+        </div>
+        <div>
+            <h2>Компьютер</h2>
+            <h2 id="computerChar">#</h2>
+        </div>
+    </div>
+    <div class="timer-game"></div>
+    <div class="timer-show"></div>
+    <div class="grid content">
+        <div id="rowOne" class="row">
+            <div id="c0" class="cell"></div>
+            <div id="c1" class="cell"></div>
+            <div id="c2" class="cell"></div>
+        </div>
+        <div id="rowTwo" class="row">
+            <div id="c3" class="cell"></div>
+            <div id="c4" class="cell"></div>
+            <div id="c5" class="cell"></div>
+        </div>
+        <div id="rowThree" class="row">
+            <div id="c6" class="cell"></div>
+            <div id="c7" class="cell"></div>
+            <div id="c8" class="cell"></div>
+        </div>
+    </div>
+
+    <div id="winner-msg" class="content align-center win-msg"></div>
+
+    <div class="content welcome">
+        <div class="content align-center">
+            <h2>Выберите:</h2>
+            <button id="playerX">X</button>
+            <button id="playerO">O</button>
+        </div>
+    </div>
+
+    <div class="content align-center">
+        <button id="reset">Играть снова</button>
+    </div>
+
+</div>
+</body>
+</html>
